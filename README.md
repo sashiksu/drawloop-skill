@@ -90,6 +90,26 @@ Tests live in `tests/` and run under Node (no browser harness — pure functions
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Powered by
+
+drawloop-skill is built on top of excellent open-source projects. Without them, none of this would exist:
+
+| Project | Role in drawloop-skill | License |
+|---|---|---|
+| [Excalidraw](https://excalidraw.com/) ([source](https://github.com/excalidraw/excalidraw)) | The hand-drawn canvas editor at the heart of the skill — every shape you drag is an Excalidraw element | MIT |
+| [Mermaid](https://mermaid.js.org/) | Parses the textual diagram syntax that Claude generates into a node-and-edge graph | MIT |
+| [mermaid-to-excalidraw](https://github.com/excalidraw/mermaid-to-excalidraw) | The bridge that converts Mermaid's graph into Excalidraw skeleton elements | MIT |
+| [Eclipse Layout Kernel (ELK)](https://www.eclipse.org/elk/) | Alternate layout engine for graphs with heavy cross-subgraph traffic — auto-flipped above 25 nodes | EPL-2.0 |
+| [Hono](https://hono.dev/) | Lightweight web framework powering the local Node server (`server.ts`) | MIT |
+| [React](https://react.dev/) | UI framework for the browser editor | MIT |
+| [Vite](https://vitejs.dev/) | Bundler for the editor UI; produces the static `ui/dist/` served by the server | MIT |
+| [Iconify](https://iconify.design/) | Live icon catalog (200,000+ icons across 150+ sets) used by `/api/icon-search` | MIT |
+| [Simple Icons](https://simpleicons.org/) | Brand-logo catalog (~3,300 logos) for service iconography (CC0 — no attribution required, but credit given anyway out of respect) | CC0 |
+
+**Tooling:** [TypeScript](https://www.typescriptlang.org/), [Biome](https://biomejs.dev/) (lint + format), [Vitest](https://vitest.dev/) (test runner), [tsx](https://github.com/privatenumber/tsx) (Node TypeScript execution).
+
+The skill itself is glue + opinions — the heavy lifting belongs to the projects above. Please star and support the upstream maintainers if drawloop-skill has been useful to you.
+
 ## License
 
 [MIT](LICENSE).
