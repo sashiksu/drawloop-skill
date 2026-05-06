@@ -7,6 +7,24 @@
 
 **Demo:** https://sashiksu.github.io/drawloop-skill/
 
+## Why drawloop-skill
+
+Most AI diagram tools generate once and forget. You prompt, you get a diagram, and the moment you nudge a node or recolor a layer, the AI is no longer in the loop — your edits and its understanding diverge. The next prompt regenerates from scratch, and your refinements become disposable.
+
+drawloop-skill takes the opposite stance: **the diagram is a conversation, the file is the conversation state, and Claude reads what you changed before drawing anything new.**
+
+A few specific consequences:
+
+- **Diagrams compound across turns.** Drag a node, swap a palette, save. Ask Claude to "make the cache layer warm-coloured" — it reads the current scene through a token-efficient structured summary (`/api/describe`) and edits *your* layout, not its last guess. Refinements don't reset; they accumulate.
+
+- **It ships as a Claude Code skill, not an MCP server.** Drop the repo into `~/.claude/skills/`, restart Claude Code, and you're done. No `.mcp.json` to author, no separate daemon to manage, no Docker image. The official [`anthropics/skills`](https://github.com/anthropics/skills) repo ships skills for `pdf`, `docx`, `xlsx`, `pptx`, `canvas-design`, and `frontend-design` — but not diagrams. drawloop-skill fills that gap with the same distribution model.
+
+- **Local-first, file-first.** The `.excalidraw` file lives inside your repo, gets versioned by git, and opens directly at [excalidraw.com](https://excalidraw.com) without an export/import dance. No cloud workspace. No second account. No third-party API key beyond the Claude Code session you already have.
+
+- **One job, done well.** drawloop-skill draws diagrams. It doesn't also try to be a Markdown editor, a database client, a PDF viewer, or a tldraw clone. The codebase is small, the surface is narrow, the behaviour is predictable. When you outgrow it, the file is portable to any other Excalidraw tool — there's no lock-in to escape from.
+
+If your current AI diagram workflow involves regenerating from scratch every time you want to tweak a label — this skill is for you.
+
 ## What it does
 
 drawloop-skill opens a local browser-embedded Excalidraw editor. Claude can:
