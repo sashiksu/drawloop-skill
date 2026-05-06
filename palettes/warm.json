@@ -1,0 +1,16 @@
+{
+  "name": "warm",
+  "description": "Warm earth-tones for client-facing diagrams.",
+  "canvasBackground": "#FFFBEB",
+  "roles": {
+    "start": { "fill": "#FED7AA", "stroke": "#9A3412" },
+    "end": { "fill": "#FDE68A", "stroke": "#854D0E" },
+    "decision": { "fill": "#FCD34D", "stroke": "#92400E" },
+    "client": { "fill": "#FECACA", "stroke": "#9F1239" },
+    "service": { "fill": "#FED7AA", "stroke": "#9A3412" },
+    "data": { "fill": "#FBCFE8", "stroke": "#9F1239" },
+    "cache": { "fill": "#FECDD3", "stroke": "#9F1239" },
+    "ai": { "fill": "#E9D5FF", "stroke": "#6B21A8" },
+    "default": { "fill": "#FFFFFF", "stroke": "#78350F" }
+  }
+}

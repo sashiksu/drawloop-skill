@@ -1,0 +1,26 @@
+{
+  "name": "cool",
+  "description": "Blue + teal fills",
+  "light": {
+    "start":    "#BAE6FD",
+    "end":      "#A7F3D0",
+    "decision": "#BFDBFE",
+    "client":   "#E0F2FE",
+    "service":  "#CFFAFE",
+    "data":     "#D1FAE5",
+    "cache":    "#DBEAFE",
+    "ai":       "#C7D2FE",
+    "default":  "#F0F9FF"
+  },
+  "dark": {
+    "start":    "#0C4A6E",
+    "end":      "#064E3B",
+    "decision": "#1E3A8A",
+    "client":   "#082F49",
+    "service":  "#164E63",
+    "data":     "#064E3B",
+    "cache":    "#1E3A8A",
+    "ai":       "#312E81",
+    "default":  "#0C1E3F"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "gcp",
+  "description": "Google Cloud palette: brand reds/blues/yellows/greens.",
+  "canvasBackground": "#FAFAFA",
+  "roles": {
+    "start": { "fill": "#FCE8E6", "stroke": "#EA4335" },
+    "end": { "fill": "#E6F4EA", "stroke": "#34A853" },
+    "decision": { "fill": "#FEF7E0", "stroke": "#FBBC04" },
+    "client": { "fill": "#E8F0FE", "stroke": "#4285F4" },
+    "service": { "fill": "#E8F0FE", "stroke": "#4285F4" },
+    "data": { "fill": "#E6F4EA", "stroke": "#34A853" },
+    "cache": { "fill": "#FCE8E6", "stroke": "#EA4335" },
+    "ai": { "fill": "#F3E8FD", "stroke": "#9334E6" },
+    "default": { "fill": "#FFFFFF", "stroke": "#202124" }
+  }
+}

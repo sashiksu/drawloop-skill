@@ -1,0 +1,53 @@
+name: Deploy demo to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Build UI
+        run: npm run build:ui
+        env:
+          # GitHub Pages serves the demo at sashiksu.github.io/drawloop-skill/, so
+          # Vite needs to prefix asset URLs with /drawloop-skill/. Local builds
+          # (server at localhost:8787) keep the default "/".
+          VITE_BASE: /drawloop-skill/
+      - uses: actions/configure-pages@v5
+        with:
+          # Idempotent — helps forks auto-enable Pages on first push. The
+          # original repo still needs a one-time manual enablement at
+          # Settings → Pages → Source: GitHub Actions, because the default
+          # GITHUB_TOKEN lacks the admin scope to *create* a Pages site.
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ui/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

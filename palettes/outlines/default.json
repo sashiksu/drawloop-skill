@@ -1,0 +1,26 @@
+{
+  "name": "default",
+  "description": "Matching role-tinted outlines",
+  "light": {
+    "start":    "#C2410C",
+    "end":      "#047857",
+    "decision": "#B45309",
+    "client":   "#0369A1",
+    "service":  "#92400E",
+    "data":     "#047857",
+    "cache":    "#B91C1C",
+    "ai":       "#6D28D9",
+    "default":  "#1E293B"
+  },
+  "dark": {
+    "start":    "#FB923C",
+    "end":      "#34D399",
+    "decision": "#FBBF24",
+    "client":   "#7DD3FC",
+    "service":  "#FCD34D",
+    "data":     "#34D399",
+    "cache":    "#FCA5A5",
+    "ai":       "#C4B5FD",
+    "default":  "#E2E8F0"
+  }
+}

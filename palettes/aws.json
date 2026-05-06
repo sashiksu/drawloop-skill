@@ -1,0 +1,16 @@
+{
+  "name": "aws",
+  "description": "AWS architecture palette: orange/blue accents.",
+  "canvasBackground": "#FAFAFA",
+  "roles": {
+    "start": { "fill": "#FFE4C4", "stroke": "#FF9900" },
+    "end": { "fill": "#D1FAE5", "stroke": "#16A085" },
+    "decision": { "fill": "#FFF4D6", "stroke": "#D97706" },
+    "client": { "fill": "#DBEAFE", "stroke": "#2563EB" },
+    "service": { "fill": "#FFE4C4", "stroke": "#FF9900" },
+    "data": { "fill": "#DDF6FF", "stroke": "#1A73E8" },
+    "cache": { "fill": "#FECACA", "stroke": "#DC2626" },
+    "ai": { "fill": "#E0E7FF", "stroke": "#4338CA" },
+    "default": { "fill": "#FFFFFF", "stroke": "#232F3E" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "palette": {
+    "default": "default",
+    "available": ["default", "warm", "cool", "mono", "aws", "azure", "gcp", "k8s"]
+  },
+  "sizing": {
+    "minWidth": 120,
+    "minHeight": 60,
+    "fontMin": 16,
+    "fontTitle": 20,
+    "containerPadding": 24
+  },
+  "antiPatterns": [
+    "Uniform card grid (each major concept should use a different visual pattern)",
+    "Diamond shapes as arrow targets (Excalidraw arrow binding to diamonds is brittle — use rectangles for arrow-bound nodes)",
+    "Manual arrow coordinates (use startBinding/endBinding with element ids)",
+    "More than 4 distinct semantic roles in one diagram (causes visual noise)",
+    "Container nesting beyond 2 levels"
+  ],
+  "diagramTypes": {
+    "architecture": "Hub-and-spoke or layered; use service / data / cache / client roles; arrows show traffic flow",
+    "flowchart": "Top-down sequential; use start / decision / end roles; diamond decisions branch with labeled arrows",
+    "sequence": "Lifelines as vertical lines; arrows horizontal; not a great Excalidraw fit — prefer Mermaid for these",
+    "er": "Cylinders for entities (data role); lines (not arrows) for relationships with cardinality labels"
+  }
+}

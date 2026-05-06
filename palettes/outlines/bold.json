@@ -1,0 +1,14 @@
+{
+  "name": "bold",
+  "description": "High-contrast near-black/near-white outlines",
+  "light": {
+    "start":    "#000000", "end":      "#000000", "decision": "#000000",
+    "client":   "#000000", "service":  "#000000", "data":     "#000000",
+    "cache":    "#000000", "ai":       "#000000", "default":  "#000000"
+  },
+  "dark": {
+    "start":    "#FFFFFF", "end":      "#FFFFFF", "decision": "#FFFFFF",
+    "client":   "#FFFFFF", "service":  "#FFFFFF", "data":     "#FFFFFF",
+    "cache":    "#FFFFFF", "ai":       "#FFFFFF", "default":  "#FFFFFF"
+  }
+}

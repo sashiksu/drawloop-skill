@@ -1,0 +1,16 @@
+{
+  "name": "cool",
+  "description": "Cool blues and teals for system/architecture diagrams.",
+  "canvasBackground": "#F0F9FF",
+  "roles": {
+    "start": { "fill": "#BAE6FD", "stroke": "#075985" },
+    "end": { "fill": "#A7F3D0", "stroke": "#065F46" },
+    "decision": { "fill": "#A5F3FC", "stroke": "#155E75" },
+    "client": { "fill": "#DBEAFE", "stroke": "#1E40AF" },
+    "service": { "fill": "#BFDBFE", "stroke": "#1E3A8A" },
+    "data": { "fill": "#99F6E4", "stroke": "#0F766E" },
+    "cache": { "fill": "#FBCFE8", "stroke": "#9D174D" },
+    "ai": { "fill": "#C7D2FE", "stroke": "#3730A3" },
+    "default": { "fill": "#FFFFFF", "stroke": "#0F172A" }
+  }
+}

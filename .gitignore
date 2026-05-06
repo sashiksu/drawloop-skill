@@ -1,0 +1,23 @@
+# Claude Code per-project settings (personal allow list, machine-local)
+.claude/settings.local.json
+
+# Build artifacts
+node_modules/
+ui/dist/
+*.tsbuildinfo
+
+# Icon cache (regenerated on demand)
+icons/cache/
+
+# Snapshots (per-user, never committed)
+*.bak-*
+*.excalidraw.bak-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

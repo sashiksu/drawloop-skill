@@ -1,0 +1,26 @@
+{
+  "name": "warm",
+  "description": "Earth-tone fills (oranges, yellows, terracotta)",
+  "light": {
+    "start":    "#FED7AA",
+    "end":      "#FBBF77",
+    "decision": "#FEF3C7",
+    "client":   "#FFE4C4",
+    "service":  "#FCD9B6",
+    "data":     "#FDE68A",
+    "cache":    "#FCA5A5",
+    "ai":       "#F9C74F",
+    "default":  "#FFF7ED"
+  },
+  "dark": {
+    "start":    "#7C2D12",
+    "end":      "#9A3412",
+    "decision": "#78350F",
+    "client":   "#7C2D12",
+    "service":  "#92400E",
+    "data":     "#854D0E",
+    "cache":    "#7F1D1D",
+    "ai":       "#854D0E",
+    "default":  "#27170B"
+  }
+}

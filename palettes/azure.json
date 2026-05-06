@@ -1,0 +1,16 @@
+{
+  "name": "azure",
+  "description": "Azure architecture palette: cyan/blue accents.",
+  "canvasBackground": "#F5FBFF",
+  "roles": {
+    "start": { "fill": "#DDF4FF", "stroke": "#0078D4" },
+    "end": { "fill": "#D4EDDA", "stroke": "#107C10" },
+    "decision": { "fill": "#FFF4CE", "stroke": "#797673" },
+    "client": { "fill": "#DDF4FF", "stroke": "#0078D4" },
+    "service": { "fill": "#CDE6FF", "stroke": "#005A9E" },
+    "data": { "fill": "#D4EDDA", "stroke": "#107C10" },
+    "cache": { "fill": "#FED9CC", "stroke": "#D83B01" },
+    "ai": { "fill": "#E5DFEB", "stroke": "#5C2D91" },
+    "default": { "fill": "#FFFFFF", "stroke": "#323130" }
+  }
+}

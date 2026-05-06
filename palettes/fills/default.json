@@ -1,0 +1,26 @@
+{
+  "name": "default",
+  "description": "Pastel role-based fills",
+  "light": {
+    "start":    "#FED7AA",
+    "end":      "#A7F3D0",
+    "decision": "#FEF3C7",
+    "client":   "#E0F2FE",
+    "service":  "#FFF3CD",
+    "data":     "#D1FAE5",
+    "cache":    "#FEE2E2",
+    "ai":       "#DDD6FE",
+    "default":  "#FFFFFF"
+  },
+  "dark": {
+    "start":    "#7C2D12",
+    "end":      "#064E3B",
+    "decision": "#78350F",
+    "client":   "#082F49",
+    "service":  "#451A03",
+    "data":     "#064E3B",
+    "cache":    "#7F1D1D",
+    "ai":       "#3B0764",
+    "default":  "#1E293B"
+  }
+}

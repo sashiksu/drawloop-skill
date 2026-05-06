@@ -1,0 +1,16 @@
+{
+  "name": "k8s",
+  "description": "Kubernetes palette: signature blues with semantic accents.",
+  "canvasBackground": "#F4F8FC",
+  "roles": {
+    "start": { "fill": "#DBEAFE", "stroke": "#326CE5" },
+    "end": { "fill": "#D1FAE5", "stroke": "#047857" },
+    "decision": { "fill": "#FEF3C7", "stroke": "#B45309" },
+    "client": { "fill": "#DBEAFE", "stroke": "#326CE5" },
+    "service": { "fill": "#BFDBFE", "stroke": "#1E40AF" },
+    "data": { "fill": "#A5F3FC", "stroke": "#155E75" },
+    "cache": { "fill": "#FECACA", "stroke": "#B91C1C" },
+    "ai": { "fill": "#DDD6FE", "stroke": "#6D28D9" },
+    "default": { "fill": "#FFFFFF", "stroke": "#0F172A" }
+  }
+}

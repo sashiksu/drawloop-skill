@@ -1,0 +1,14 @@
+{
+  "name": "mono",
+  "description": "Uniform gray outlines",
+  "light": {
+    "start":    "#374151", "end":      "#374151", "decision": "#374151",
+    "client":   "#374151", "service":  "#374151", "data":     "#374151",
+    "cache":    "#374151", "ai":       "#374151", "default":  "#374151"
+  },
+  "dark": {
+    "start":    "#D1D5DB", "end":      "#D1D5DB", "decision": "#D1D5DB",
+    "client":   "#D1D5DB", "service":  "#D1D5DB", "data":     "#D1D5DB",
+    "cache":    "#D1D5DB", "ai":       "#D1D5DB", "default":  "#D1D5DB"
+  }
+}

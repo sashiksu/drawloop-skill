@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "server.ts",
+    "server/**/*.ts",
+    "scripts/**/*.ts",
+    "ui/src/**/*.ts",
+    "ui/src/**/*.tsx",
+    "tests/**/*.ts",
+    "types/**/*.d.ts"
+  ],
+  "exclude": ["node_modules", "ui/dist"]
+}

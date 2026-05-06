@@ -1,0 +1,6 @@
+{
+  "name": "subtle",
+  "description": "Lighter, less assertive arrows",
+  "light": "#94A3B8",
+  "dark":  "#64748B"
+}

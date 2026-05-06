@@ -1,0 +1,26 @@
+{
+  "name": "mono",
+  "description": "Greyscale fills",
+  "light": {
+    "start":    "#E5E7EB",
+    "end":      "#D1D5DB",
+    "decision": "#F3F4F6",
+    "client":   "#F9FAFB",
+    "service":  "#F3F4F6",
+    "data":     "#E5E7EB",
+    "cache":    "#F3F4F6",
+    "ai":       "#E5E7EB",
+    "default":  "#FFFFFF"
+  },
+  "dark": {
+    "start":    "#4B5563",
+    "end":      "#374151",
+    "decision": "#374151",
+    "client":   "#1F2937",
+    "service":  "#374151",
+    "data":     "#4B5563",
+    "cache":    "#374151",
+    "ai":       "#4B5563",
+    "default":  "#262626"
+  }
+}

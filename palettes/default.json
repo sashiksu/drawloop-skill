@@ -1,0 +1,16 @@
+{
+  "name": "default",
+  "description": "Slate-and-pastel palette inspired by drawloop-skill's D2 ancestor.",
+  "canvasBackground": "#F8FAFC",
+  "roles": {
+    "start": { "fill": "#FED7AA", "stroke": "#C2410C" },
+    "end": { "fill": "#A7F3D0", "stroke": "#047857" },
+    "decision": { "fill": "#FEF3C7", "stroke": "#B45309" },
+    "client": { "fill": "#E0F2FE", "stroke": "#0369A1" },
+    "service": { "fill": "#FFF3CD", "stroke": "#92400E" },
+    "data": { "fill": "#D1FAE5", "stroke": "#047857" },
+    "cache": { "fill": "#FEE2E2", "stroke": "#B91C1C" },
+    "ai": { "fill": "#DDD6FE", "stroke": "#6D28D9" },
+    "default": { "fill": "#FFFFFF", "stroke": "#1E293B" }
+  }
+}
