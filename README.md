@@ -25,6 +25,12 @@ A few specific consequences:
 
 If your current AI diagram workflow involves regenerating from scratch every time you want to tweak a label — this skill is for you.
 
+## Architecture
+
+![drawloop-skill architecture](docs/architecture/architecture.png)
+
+The diagram above was generated *by drawloop-skill itself*. Claude wrote the Mermaid, the skill resolved it through ELK and Excalidraw, and the PNG was exported with the in-browser button — no other tool involved. Six layers in the picture: skill instructions (markdown read by Claude), CLI scripts, local Hono server, browser-embedded React + Excalidraw UI, on-disk assets, and the external icon catalogs (Iconify + Simple Icons).
+
 ## What it does
 
 drawloop-skill opens a local browser-embedded Excalidraw editor. Claude can:

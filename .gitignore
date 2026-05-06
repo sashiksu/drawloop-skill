@@ -21,3 +21,12 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Docs — local working notes (specs, plans, drafts) live in docs/ but should
+# never be committed. Only the README's architecture image is allow-listed.
+# Pattern: ignore contents of docs/, then re-include the architecture path
+# step by step (you can't re-include a file whose parent dir is ignored).
+docs/*
+!docs/architecture/
+docs/architecture/*
+!docs/architecture/architecture.png
